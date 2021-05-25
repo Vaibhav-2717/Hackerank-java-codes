@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+         BigInteger N = new BigInteger(sc.next());
+     BigInteger a = new BigInteger(sc.next());
+     
+     BigInteger f,f1;
+      f= N.add(a);
+       f1= N.multiply(a);
+        System.out.println(f);
+         System.out.println(f1);
+        /* Enter your code he. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
